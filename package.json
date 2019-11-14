@@ -1,0 +1,24 @@
+{
+  "name": "flood-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "georaster-layer-for-leaflet": "^0.2.5",
+    "plotty": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgollaher/flood-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgollaher/flood-map/issues"
+  },
+  "homepage": "https://github.com/tgollaher/flood-map#readme"
+}

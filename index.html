@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="crossorigin=""/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>   
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+     </head>
+        <body>
+            <div>
+                <header>Flood Data</header>
+            </div>
+                <br>
+                <br>
+            <div class="chart" style="position: relative; height:60vh; width:90vw">
+                <canvas id="myChart"></canvas>
+            </div>
+                <br>
+                <br>
+            <div>
+                <header>Hospital Locations</header>
+                <br>
+                <br>
+            </div>
+            <div id="mapid"></div>
+                <script src="myChart.js"></script>
+                <script src="hospitals.js"></script>
+                <script src="main.js"></script>  
+        </body>
+</html>

@@ -1,0 +1,10 @@
+#mapid { 
+    height: 400px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
